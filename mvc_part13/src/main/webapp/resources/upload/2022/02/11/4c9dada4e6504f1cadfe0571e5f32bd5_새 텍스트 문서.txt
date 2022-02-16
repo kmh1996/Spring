@@ -1,0 +1,30 @@
+lcbhfvygokmjahbd
+
+
+
+
+
+
+
+
+
+
+
+관리자 권한으로 cmd 실행
+
+-- 설정 정보 확인
+net config server
+
+
+Cscript.exe adsutil.vbs set w3svc/MaxConnections 40
+
+컴퓨터\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters\EnableAuthenticateUserSharing
+10 진수 40으로 변경 후 컴퓨터 재시작
+
+
+spring 3.9.18 java 1.8에서 
+실행 안됨
+
+spring 3.9.15    ecclipse 4.16 만 가능
+
+
